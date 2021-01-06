@@ -1,0 +1,22 @@
+INSERT INTO samochody (id, marka, model, klasa, silnik, skrzynia_biegow, cena_za_dobe, ubezpieczenie)
+VALUES
+(001, "Toyota", "Yaris", "B+", "benzyna", "manualna", 70, 2),
+(002, "Toyota", "Aygo", "A", "benzyna", "manualna", 60, 5),
+(003, "Citroen", "C3", "BA", "benzyna", "automatyczna", 100, 6),
+(004, "BMW", "318i/316D", "DA+", "diesel/benzyna", "automatyczna", 210,8),
+(005, "Volkswagen", "Passat", "DA+", "diesel", "automatyczna", 190, 6),
+(006, "Audi", "A6", "E+", "diesel", "manualna", 200, 5),
+(007, "Audi", "Q7", "SUV", "diesel", "automatyczna", 300, 8),
+(008, "Nissan", "Qashqai", "SUV", "diesel", "manualna", 130, 3),
+(009, "Skoda", "Octavia", "D", "benzyna", "manualna", 120, 4),
+(010, "Volkswagen", "Golf", "C", "benzyna", "manualna", 110, 1),
+(011, "Ford", "Fiesta", "B+", "benzyna", "manualna", 70, 1),
+(012, "Skoda", "Fabia", "B+", "benzyna", "manualna", 90, 2),
+(013, "Hyundai", "i20", "B+", "benzyna", "manualna", 70, 6),
+(014, "Toyota", "Auris", "C+", "benzyna", "manualna", 100, 4),
+(015, "Kia", "CEED", "D+", "diesel", "automatyczna", 150, 5),
+(016, "Kia", "Optima", "E+", "diesel", "manualna", 180, 7),
+(017, "Peugeot", "508", "D+", "diesel", "manualna", 160, 3),
+(018, "Ford", "Fiesta", "B+", "benzyna", "manualna", 70, 1),
+(019, "Mercedes", "C200", "DA+", "benzyna", "automatyczna", 200, 8),
+(020, "Chrysler", "Voyager", "VAN", "diesel", "automatyczna", 190, 8);

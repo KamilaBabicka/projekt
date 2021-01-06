@@ -1,0 +1,2 @@
+-- Pokazuje ilość lat przepracowanych w firmie względem wieku do 2021 roku
+SELECT imie, nazwisko, 2021-(year(data_urodzenia)) AS wiek, data_zatrudnienia, 2021-(year(data_zatrudnienia)) as ilosc_lat_przepracowanych FROM pracownicy ORDER BY wiek DESC;

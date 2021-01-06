@@ -1,0 +1,2 @@
+-- Suma cen wszystkich wypożyczeń danego klienta
+SELECT wypozyczenia.nr_klienta, klienci.imie, klienci.nazwisko, SUM(suma) FROM wypozyczenia LEFT JOIN klienci ON wypozyczenia.nr_klienta=klienci.nr_klienta GROUP BY nr_klienta ORDER BY nr_klienta;

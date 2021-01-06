@@ -1,0 +1,2 @@
+-- Pokazuje ilość lat, które zostało pracownikowi płci męskiej do osiągnięcia wieku emerytalnego (65 lat)
+SELECT imie, nazwisko, 65-(2021-(year(data_urodzenia))) as ilosc_lat_do_wieku_emerytalnego FROM pracownicy WHERE imie NOT LIKE '%a';

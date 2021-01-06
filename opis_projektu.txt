@@ -1,0 +1,13 @@
+Baza danych przechowuje dane wypo¿yczalni samochodów. 
+Zawiera tabele:
+- dotycz¹ce danych klientów,
+- dotycz¹ce danych pracowników, 
+- opisuj¹ce ofertê samochodów, 
+- opisuj¹ce ofertê ubezpieczeñ,
+- opisuj¹ce wykonane zamówienia.
+
+Baza pozwala sprawdziæ:
+- dane osobowe klientów, pracowników, 
+- szczegó³owe dane samochodów,
+- dostêpne rodzaje ubezpieczeñ w ofercie,
+- wykonane zamówienia.
